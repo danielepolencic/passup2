@@ -1,0 +1,19 @@
+{
+  "name": "passup2",
+  "description": "A hacker's tool for keeping web passwords up-to-date.",
+  "version": "0.1.0",
+  "author": "Daniele Polencic <daniele.polencic@gmail.com>",
+  "dependencies": {
+    "prompt": "0.2.11",
+    "commander": "1.3.2"
+  },
+  "devDependencies": {
+    "chai": "1.7.2"
+  },
+  "bin": {
+    "passup2": "index.js"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  }
+}
