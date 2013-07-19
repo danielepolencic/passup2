@@ -20,6 +20,6 @@ function DummyDoor(){
 DummyDoor.prototype = Object.create( Door.prototype, { constructor: { value: Door } } );
 
 DummyDoor.prototype.lock = function( callback ){
-  if( this.keys.length !== this.validate.length ) { return true; }
+  if( this.keys.length !== this.validate.length ) { return false; }
   callback && callback( true );
 };

@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "author": "Daniele Polencic <daniele.polencic@gmail.com>",
   "dependencies": {
-    "prompt": "0.2.11",
+    "lodash": "*",
     "commander": "1.3.2"
   },
   "devDependencies": {
